@@ -34,3 +34,6 @@ db_generator:	db_generator.o random_db.o dlist.o ProtList.o FlagList.o ExtraList
 	${CC} ${CFLAGS} db_generator.o random_db.o dlist.o sbintree.o dbintree.o ProtList.o FlagList.o ExtraList.o PortList.o PrefixList.o FilterList.o redundant_filter_check.o TupleBST.o custom_db.o -o db_generator
 
 all:	db_generator
+
+clean:
+	rm -f *.o db_generator
