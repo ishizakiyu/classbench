@@ -47,7 +47,7 @@ int sbintree::nodes(){
 void sbintree::read_nest(FILE* fp_in){
   int done = 0;
   int matches = MAXFILTERS;
-  char comm[6];
+  char comm[7];
   char sa_comm[]="-snest";
 
   // read in source address nest
@@ -75,7 +75,7 @@ void sbintree::read_skew(FILE* fp_in){
   float p1_t; 
   float p2_t;
   float f_skew;
-  char comm[6];
+  char comm[7];
   char sa_comm[]="-sskew";
 
   // read in source address skew

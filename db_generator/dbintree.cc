@@ -50,7 +50,7 @@ int dbintree::nodes(){
 void dbintree::read_nest(FILE* fp_in){
   int done = 0;
   int matches = MAXFILTERS;
-  char comm[6];
+  char comm[7];
   char da_comm[]="-dnest";
 
   // read in destination address nest
@@ -78,7 +78,7 @@ void dbintree::read_skew(FILE* fp_in){
   float p1_t; 
   float p2_t;
   float f_skew;
-  char comm[6];
+  char comm[7];
   char sa_comm[]="-dskew";
 
   // read in destination address skew
@@ -120,7 +120,7 @@ void dbintree::read_skew(FILE* fp_in){
 void dbintree::read_corr(FILE* fp_in){
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char p_comm[]="-pcorr";
   int index;
   float icorr;

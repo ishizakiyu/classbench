@@ -94,7 +94,7 @@ void ExtraList::choose(int prot, int *extra){
 void ExtraList::read(FILE *fp, float scale_factor){
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char extra_comm[]="-extra";
   // read in port width/range
   while (matches != EOF && done == 0) {

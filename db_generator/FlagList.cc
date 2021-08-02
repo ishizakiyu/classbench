@@ -49,7 +49,7 @@ void FlagList::choose(float p, int prot, unsigned *flags, unsigned *flags_mask){
 void FlagList::read(FILE *fp){
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char flag_comm[]="-flags";
   // read in port width/range
   while (matches != EOF && done == 0) {

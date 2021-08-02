@@ -509,7 +509,7 @@ void fprint_filter(FILE *fp, struct filter *filt){
 int read_scale(FILE *fp){
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char scale_comm[]="-scale";
   int scale = 0;
 

@@ -31,7 +31,7 @@ ProtList::~ProtList() {
 void ProtList::read(FILE *fp) {
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char prots_comm[]="-prots";
 
   // read in port width/range

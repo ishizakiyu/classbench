@@ -27,7 +27,7 @@ PortList::~PortList() { delete ports; }
 void PortList::read(int t, FILE *fp) {
   int done = 0;
   int matches = 0;
-  char comm[5];
+  char comm[6];
   char spar_comm[]="-spar";
   char spem_comm[]="-spem";
   char dpar_comm[]="-dpar";

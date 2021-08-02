@@ -36,7 +36,7 @@ void PrefixList::read(FILE* fp){
 void PrefixList::read_type(int type, FILE *fp) {
   int done = 0;
   int matches = 0;
-  char comm[6];
+  char comm[7];
   char wc_wc_comm[]="-wc_wc";
   char wc_lo_comm[]="-wc_lo";
   char wc_hi_comm[]="-wc_hi";
